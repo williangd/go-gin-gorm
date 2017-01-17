@@ -39,7 +39,7 @@ func main() {
 
 //GetDefault :  retorna algo ao acessar a url padrão
 func GetDefault(c *gin.Context) {
-	c.JSON(200, gin.H{"Message": "Tua mãe"})
+	c.JSON(200, gin.H{"Message": "Teste"})
 }
 
 func DeletePerson(c *gin.Context) {
